@@ -1,5 +1,3 @@
-
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
 /* 
 ---------------------------------------------
@@ -569,9 +567,10 @@ Header Style
     flex-basis: 100%;
   }
   .header-area .main-nav .logo {
-    position: absolute;
-    left: 30px;
-    top: 0px;
+    position: relative; /* Changed from absolute to relative */
+    left: 0; /* Removed centering */
+    top: 0; /* Adjusted to maintain original position */
+    margin-left: 0; /* Ensure no extra margin */
   }
   .background-header .main-nav .logo {
     top: 0px;
